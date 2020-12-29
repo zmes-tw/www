@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>教材光碟</title>
+
+<script src="http://code.createjs.com/easeljs-0.8.1.min.js"></script>
+<script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>
+<script src="http://code.createjs.com/movieclip-0.8.1.min.js"></script>
+<script src="http://code.createjs.com/preloadjs-0.6.1.min.js"></script>
+<script src="http://code.createjs.com/soundjs-0.6.1.min.js"></script>
+<script src="index.js"></script>
+
+<script>
+var canvas, stage, exportRoot;
+
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.installPlugin(createjs.Sound);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib.index();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+	stage.enableMouseOver();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+
+function playSound(id, loop) {
+	createjs.Sound.play(id, createjs.Sound.INTERRUPT_EARLY, 0, 0, loop);
+}
+</script>
+</head>
+
+<body onload="init();" style="background-color:#D4D4D4">
+    <div align="center">
+      <canvas id="canvas" width="1250" height="820" style="background-color:#FFFFFF"></canvas>
+	            </div>
+</div>
+	          <div align="center">
+</div>
+	        <div align="center">
+	          <table width="1250" border="0" cellspacing="0" cellpadding="3">
+	            <tr>
+	              <td width="200">&nbsp;</td>
+	              <td width="999"><div align="center"><a href="../html/lesson1.html" target="_self">&lt;進入&gt;</a></div></td>
+	              <td width="200"><div align="right"><a href="http://www.eduweb.com.tw/help/html5/" target="_blank">如無法瀏覽時請點我</a></div></td>
+                </tr>
+  </table>
+	          <a href="http://www.eduweb.com.tw/help/html5/" target="_blank"><br>
+              </a><br>
+</div>
+</body>
+</html>
