@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+
+.wrapper .content .content-table table tr td:nth-child(3) a:hover {
+    background-color: transparent !important;
+}
+
+.wrapper .content .content-table table tr td:nth-child(2) a:hover {
+    background-color: yellow;
+}
+
+.wrapper .content .content-table table tr td:nth-child(3) {
+    text-align: center !important;
+}

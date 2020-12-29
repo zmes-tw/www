@@ -1,0 +1,49 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+}
+/* CSS Document */
+#parent {
+	width: 100%;
+	text-align: center;
+		
+}
+#wrapper {
+	width: 1280px;
+	height: 720px;
+	margin:0 auto;
+	position: relative;
+}
+
+#canvas {
+	background-color: #FFF;
+	display: block;
+	height: auto;
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+
+
+#input_txt {
+	text-align: center;
+	vertical-align: middle;
+	width: 20%;
+	height: 15%;
+	top: 45%;
+	left: 38%;
+	font-size: 36px;
+	position:absolute;
+	display:none;
+}
+#set_size {
+	display: inline-block;
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 24px;
+}
