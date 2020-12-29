@@ -1,0 +1,1 @@
+﻿school=忠明國小&teacher=電腦&grade=三年級&bookname=SA27-我是天才小畫家
