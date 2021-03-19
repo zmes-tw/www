@@ -1,0 +1,72 @@
+/*------------------------------------------------------------------
+[ Gallery / .gallery-container ]
+*/
+.mygallery-container {
+    margin: 0;
+    margin-bottom: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.mygallery-container li {
+    width: 110px;
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    margin: 0 5px;
+    margin-bottom: 2em;
+    border: 1px solid #d3d3d3;
+    position: relative;
+    padding: 6px;
+}
+
+.mygallery-container img {
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    cursor: pointer;
+}
+
+.mygallery-container li {
+    position: relative;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.mygallery-container li :after,
+.mygallery-container li :before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1px;
+    bottom: -3px;
+    left: 3px;
+    right: 3px;
+    background-color: #ffffff;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    border: 1px solid #d3d3d3;
+    border-top: 0;
+}
+
+.mygallery-container li :before {
+    bottom: -5px;
+    left: 6px;
+    right: 6px;
+}
+
+
+table.mygallery td{
+    padding: 3px;
+}
+
+table.mygallery td img{
+    cursor: pointer;
+}
