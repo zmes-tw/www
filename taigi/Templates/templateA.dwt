@@ -31,6 +31,7 @@
 </head>
  
 <body class="page_mobilercglist ">
+
 <div class="wrap">
 
 <div class="fpbgvideo"></div>
@@ -43,9 +44,10 @@
 <div class="header">
 	<div class="minner container">
 
+
 	<div class="mlogo">
 		<h1></h1>
-      <div class="sitename ">臺中市西區忠明國民小學<br>本土語言教育坊</div>
+      <div class="sitename home"><a href="index.html">臺中市西區忠明國民小學<br>本土語言教育坊</a></div>
 	</div>
 	
 
@@ -79,7 +81,7 @@
 
 				<li class=" dropdown " id="Hln_2380"><a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" title="本土語教學環境">本土語教學環境</a>
 					<ul class="dropdown-menu" id="otcsubmenu1_2380">
-						<li id="Hln_2382"><a href="lang.data.html" title="本土語言基礎數據">本土語言基礎數據</a></li>	
+						<li id="Hln_2382"><a href="lang-data.html" title="本土語言基礎數據">本土語言基礎數據</a></li>	
 						<li id="Hln_2382"><a href="setup.html" title="友善教學環境">友善教學環境</a></li>
 						<li id="Hln_2384"><a href="clip.html"  title="教學影音資源">教學影音資源</a></li>
 					</ul>
@@ -347,10 +349,10 @@ $(document).ready(function(){
 
 <div class="copyright">
 				
-	<span>網頁管理專人：</span><span>資訊組長 張詩岳 &nbsp;&nbsp;<a href="mailto:turtle6@gmail.com"><i class="fas fa-envelope">&nbsp;</i>電子信箱</a> ｜ </span><span>教學組長 蔡如涵 &nbsp;&nbsp;<a href="mailto:orl884098@hotmail.com"><i class="fas fa-envelope">&nbsp;</i>電子信箱</a> ｜ </span><span>教師 凌至善 &nbsp;&nbsp;<a href="mailto:lingling1962@yahoo.com.tw"><i class="fas fa-envelope">&nbsp;</i>電子信箱</a></span>			
-			
+	<span style="margin-bottom: 30px;">網頁管理專人：教學組長 蔡如涵 &nbsp;&nbsp;<a href="mailto:juhan.tsai@email.zmes.tc.edu.tw"><i class="fas fa-envelope">&nbsp;</i>電子信箱</a></span>			
+	<br>
 	
-	<p>地址：40353<a href="https://www.google.com/maps/place/403%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%BA%8C%E6%AE%B5556%E8%99%9F/@24.1594602,120.6579538,17z/data=!3m1!4b1!4m5!3m4!1s0x34693d8481938db5:0xdbc4057702fa4bf9!8m2!3d24.1594602!4d120.6601425" target="_blank" title="臺中市西區臺灣大道二段556號">臺中市西區臺灣大道二段556號 </a>TEL：04-23172860 FAX：04-23165110 版權所有‧轉載必究</p>
+	<p>地址：40353&nbsp;臺中市西區臺灣大道二段556號&nbsp;<a href="https://www.google.com/maps/place/403%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%BA%8C%E6%AE%B5556%E8%99%9F/@24.1594602,120.6579538,17z/data=!3m1!4b1!4m5!3m4!1s0x34693d8481938db5:0xdbc4057702fa4bf9!8m2!3d24.1594602!4d120.6601425" target="_blank" title="臺中市西區臺灣大道二段556號"><i class="fas fa-map-marker-alt"></i>&nbsp;google map</a>&nbsp;&nbsp;TEL：04-23172860&nbsp;FAX：04-23165110 <br>&copy;2021 版權所有‧轉載必究</p>
 
 	
 </div>
