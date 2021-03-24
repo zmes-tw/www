@@ -16044,7 +16044,7 @@ div,li {
 
 .md_style2 .mt .mt-title {
 	padding-left: 18px;
-	background: url(/plugin/mobile/style/7/images/style_arrow.png) no-repeat left 9px;
+	background: url(../plugin/mobile/style/7/images/style_arrow.png) no-repeat left 9px;
 	color: #3e3e3e;
 }
 
@@ -16818,7 +16818,7 @@ textarea.form-control {
 
 .d-item .d-txt .mtitle a,.mb .d-item.h-il-td .d-txt .mtitle a {
 	padding-left: 18px;
-	background: url(/plugin/mobile/style/7/images/arrow.gif) no-repeat left 5px;
+	background: url(../plugin/mobile/style/7/images/arrow.gif) no-repeat left 5px;
 	color: #3e3e3e;
 	font-weight: 700;
 }
